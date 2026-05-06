@@ -126,13 +126,13 @@ cd zepto_SQL_data_analysis
 
 This file contains:
 
-    - Table creation
+      - Table creation
 
-    - Data exploration
+      - Data exploration
 
-    - Data cleaning
+      - Data cleaning
 
-    - SQL Business analysis
+      - SQL Business analysis
 
 3. **Load the dataset into pgAdmin or any other PostgreSQL client**
 
