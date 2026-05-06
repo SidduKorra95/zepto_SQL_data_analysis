@@ -1,9 +1,9 @@
-🛒 Zepto E-commerce SQL Data Analysis Project
----
+## 🛒 Zepto E-commerce SQL Data Analysis Project
+
 This is a complete, real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from Zepto — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
 
-📌 Project Overview
----
+## 📌 Project Overview
+
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 
 ✅ Set up a messy, real-world e-commerce inventory database
@@ -14,14 +14,14 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 
 ✅ Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue and more
 
-📁 Dataset Overview
----
+## 📁 Dataset Overview
+
 The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
 
 Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate product names exist because the same product may appear multiple times in different package sizes, weights, discounts, or categories to improve visibility – exactly how real catalog data looks.
 
-🧾 Columns:
----
+## 🧾 Columns:
+
 - **sku_id:** Unique identifier for each product entry (Synthetic Primary Key)
 
 - **name:** Product name as it appears on the app
@@ -42,12 +42,12 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 
 - **quantity:** Number of units per package (mixed with grams for loose produce)
 
-🔧 Project Workflow
----
+### 🔧 Project Workflow
+
 Here’s a step-by-step breakdown of what we do in this project:
 
-1. Database & Table Creation
----
+### 1. Database & Table Creation
+
 We start by creating a SQL table with appropriate data types:
 
 ```sql
@@ -65,8 +65,8 @@ CREATE TABLE zepto (
 );
 ```
 
-2. Data Import
----
+### 2. Data Import
+
 - Loaded CSV using pgAdmin's import feature.
 
  - If you're not able to use the import feature, write this code instead:
@@ -77,8 +77,8 @@ CREATE TABLE zepto (
 ```
  - Faced encoding issues (UTF-8 error), which were fixed by saving the CSV file using CSV UTF-8 format.
 
-3. 🔍 Data Exploration
----
+### 3. 🔍 Data Exploration
+
  - Counted the total number of records in the dataset
 
  - Viewed a sample of the dataset to understand structure and content
@@ -91,32 +91,32 @@ CREATE TABLE zepto (
 
  - Detected products present multiple times, representing different SKUs
 
-4. 🧹 Data Cleaning
----
+### 4. 🧹 Data Cleaning
+
   - Identified and removed rows where MRP or discounted selling price was zero
 
- - Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
+  - Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
 
-5. 📊 Business Insights
---
- - Found top 10 best-value products based on discount percentage
+### 5. 📊 Business Insights
 
- - Identified high-MRP products that are currently out of stock
+   - Found top 10 best-value products based on discount percentage
 
- - Estimated potential revenue for each product category
+   - Identified high-MRP products that are currently out of stock
 
- - Filtered expensive products (MRP > ₹500) with minimal discount
+   - Estimated potential revenue for each product category
 
- - Ranked top 5 categories offering highest average discounts
+   - Filtered expensive products (MRP > ₹500) with minimal discount
 
- - Calculated price per gram to identify value-for-money products
+   - Ranked top 5 categories offering highest average discounts
 
- - Grouped products based on weight into Low, Medium, and Bulk categories
+   - Calculated price per gram to identify value-for-money products
 
- - Measured total inventory weight per product category
+   - Grouped products based on weight into Low, Medium, and Bulk categories
 
-🛠️ How to Use This Project
----
+   - Measured total inventory weight per product category
+
+### 🛠️ How to Use This Project
+
 1. **Clone the repository**
 ```bash
 git clone https://https://github.com/SidduKorra95/zepto_SQL_data_analysis.git
