@@ -46,7 +46,7 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 ---
 Here’s a step-by-step breakdown of what we do in this project:
 
-##1. Database & Table Creation
+1. Database & Table Creation
 ---
 We start by creating a SQL table with appropriate data types:
 
@@ -65,7 +65,7 @@ CREATE TABLE zepto (
 );
 ```
 
-##2. Data Import
+2. Data Import
 ---
 - Loaded CSV using pgAdmin's import feature.
 
@@ -77,7 +77,7 @@ CREATE TABLE zepto (
 ```
  - Faced encoding issues (UTF-8 error), which were fixed by saving the CSV file using CSV UTF-8 format.
 
-##3. 🔍 Data Exploration
+3. 🔍 Data Exploration
 ---
  - Counted the total number of records in the dataset
 
@@ -91,13 +91,13 @@ CREATE TABLE zepto (
 
  - Detected products present multiple times, representing different SKUs
 
-##4. 🧹 Data Cleaning
+4. 🧹 Data Cleaning
 ---
   - Identified and removed rows where MRP or discounted selling price was zero
 
  - Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
 
-##5. 📊 Business Insights
+5. 📊 Business Insights
 --
  - Found top 10 best-value products based on discount percentage
 
@@ -115,7 +115,7 @@ CREATE TABLE zepto (
 
  - Measured total inventory weight per product category
 
-##🛠️ How to Use This Project
+🛠️ How to Use This Project
 ---
 1. **Clone the repository**
 ```bash
