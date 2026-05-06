@@ -1,8 +1,8 @@
-#🛒 Zepto E-commerce SQL Data Analysis Project
+🛒 Zepto E-commerce SQL Data Analysis Project
 ---
 This is a complete, real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from Zepto — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
 
-##📌 Project Overview
+📌 Project Overview
 ---
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 
@@ -14,7 +14,7 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 
 ✅ Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue and more
 
-##📁 Dataset Overview
+📁 Dataset Overview
 ---
 The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
 
@@ -42,7 +42,7 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 
 - **quantity:** Number of units per package (mixed with grams for loose produce)
 
-##🔧 Project Workflow
+🔧 Project Workflow
 ---
 Here’s a step-by-step breakdown of what we do in this project:
 
