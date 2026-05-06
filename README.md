@@ -121,7 +121,7 @@ CREATE TABLE zepto (
 ```bash
 git clone https://https://github.com/SidduKorra95/zepto_SQL_data_analysis.git
 cd zepto_SQL_data_analysis
-``
+```
 2. **Open zepto_SQL_data_analysis.sql**
 
 This file contains:
