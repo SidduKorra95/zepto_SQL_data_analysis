@@ -1,4 +1,4 @@
-# zepto_SQL_data_analysis
+
 🛒 Zepto E-commerce SQL Data Analyst Portfolio Project
 This is a complete, real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from Zepto — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
 📌 Project Overview
@@ -104,8 +104,8 @@ Measured total inventory weight per product category
 🛠️ How to Use This Project
 Clone the repository
 
-git clone https://github.com/amlanmohanty/zepto-SQL-data-analysis-project.git
-cd zepto-SQL-data-analysis-project
+git clone https://https://github.com/SidduKorra95/zepto_SQL_data_analysis.git
+cd zepto_SQL_data_analysis
 Open zepto_SQL_data_analysis.sql
 
 This file contains:
@@ -121,5 +121,4 @@ SQL Business analysis
 Load the dataset into pgAdmin or any other PostgreSQL client
 
 Create a database and run the SQL file
-
 Import the dataset (convert to UTF-8 if necessary)
